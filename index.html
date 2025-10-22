@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>my notes</h1>
+    <p class="subtitle">aesthetic notebook vibes ✨</p>
+  </header>
+
+  <main>
+    <div id="controls">
+      <label for="color-picker">note color:</label>
+      <input type="color" id="color-picker" value="#fff9f0">
+    </div>
+
+    <section id="notes">
+      <!-- notes will appear here -->
+    </section>
+
+    <div id="add-note">
+      <textarea placeholder="write your note..." id="note-input"></textarea>
+      <button id="add-button">add note</button>
+    </div>
+  </main>
+
+  <audio id="typing-sound" src="typing.mp3"></audio>
+  <audio id="submit-sound" src="submit.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
